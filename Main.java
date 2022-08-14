@@ -47,18 +47,14 @@ class Main {
            selectionSort selection = new selectionSort();
            selection.selectionSortMethod();
        }
-        // INSTANCE OF THE RADIXSORT
-       if (option.equals("6")){
-           RadixSort radixSort = new RadixSort();
-          radixSort.RadixMethod();
-       }
+       
        // INSTANCE OF THE BUCKETSORT
-       if (option.equals("7")){
+       if (option.equals("6")){
            BucketSort bucketSort = new BucketSort();
            bucketSort.bucketSortMethod();
        }
        // INSTANCE OF THE COUNTINGSORT CLASS
-       if (option.equals("8")){
+       if (option.equals("7")){
            CountingSort countingSort = new CountingSort();
            countingSort.countingSortMethod();
        }
