@@ -10,9 +10,8 @@ class Main {
         System.out.println("3.Merge Sort");
         System.out.println("4.Heap Sort");
         System.out.println("5.Selection Sort");
-        System.out.println("6.Radix Sort");
-        System.out.println("7.Bucket Sort");
-        System.out.println("8.Counting Sort");
+        System.out.println("6.Bucket Sort");
+        System.out.println("7.Counting Sort");
         Scanner scanner = new Scanner(System.in);
         option = scanner.next();
 
